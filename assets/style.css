@@ -1,0 +1,46 @@
+/* Sidebar styling */
+.sidebar {
+    background-color: #1E3D59;
+    color: white;
+    padding: 20px;
+    width: 250px;
+    position: fixed;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.sidebar-header {
+    color: white;
+}
+
+.sidebar-menu {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.sidebar-menu li {
+    margin: 20px 0;
+}
+
+.sidebar-menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.sidebar-menu li a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styling */
+.content {
+    margin-left: 270px;
+    padding: 20px;
+}
+
+.dashboard-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
